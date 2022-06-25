@@ -1,7 +1,7 @@
 export const data = [
     {
         title: "Moana",
-        category: "Western",
+        category: "Cartoon",
         id: Math.random(),
         rate: 8,
         cover: "https://m.media-amazon.com/images/I/A1JOaV3B6fL._AC_SL1500_.jpg",
@@ -10,7 +10,7 @@ export const data = [
     },
     {
         title: "Coco",
-        category: "Mistery",
+        category: "Cartoon",
         id: Math.random(),
         rate: 7,
         cover: "https://lumiere-a.akamaihd.net/v1/images/p_coco_19736_fd5fa537.jpeg?region=0%2C0%2C540%2C810",
@@ -19,7 +19,7 @@ export const data = [
     },
     {
         title: "Encanto",
-        category: "Drama",
+        category: "Cartoon",
         id: Math.random(),
         rate: 7,
         cover: "https://media.services.cinergy.ch/media/box1600/97e60f91f99241efea976da057a2235a1bd078e1.jpg",
@@ -28,7 +28,7 @@ export const data = [
     },
     {
         title: "Raya and the last dragon",
-        category: "War",
+        category: "Cartoon",
         id: Math.random(),
         rate: 8,
         cover: "https://m.media-amazon.com/images/M/MV5BZWNiOTc4NGItNGY4YS00ZGNkLThkOWEtMDE2ODcxODEwNjkwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
@@ -37,7 +37,7 @@ export const data = [
     },
     {
         title: "Dragon Ball",
-        category: "Crime",
+        category: "Cartoon",
         id: Math.random(),
         rate: 9,
         cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjSvnJc2ChhO9Y6LsuBKeLmzPw8zekDqEB2w&usqp=CAU",
