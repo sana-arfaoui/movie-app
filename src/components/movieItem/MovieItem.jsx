@@ -11,7 +11,7 @@ export default function MovieItem({
     release,
 }) {
     return (
-        <div className="movie-item">
+        <div className="movie-item" style={{textAlign: 'center'}}>
             <Card style={{ width: "18rem" }}>
                 <Card.Img
                     variant="top"
@@ -19,14 +19,14 @@ export default function MovieItem({
                     style={{ height: "450px" }}
                 />
                 <Card.Body style={{ height: "360px" }}>
-                    <Card.Title>{title}</Card.Title>
-                    <Card.Subtitle>Category</Card.Subtitle>
-                    <Card.Text> {category} </Card.Text>
-                    <Card.Subtitle>Rate</Card.Subtitle>
+                    <Card.Title style={{color:'red'}}>{title}</Card.Title>
+                    <Card.Subtitle style={{color:'gray'}}>Category</Card.Subtitle>
+                    <Card.Text > {category} </Card.Text>
+                    <Card.Subtitle style={{color:'gray'}}>Rate</Card.Subtitle>
                     <Card.Text> {rate} </Card.Text>
-                    <Card.Subtitle>Cast</Card.Subtitle>
+                    <Card.Subtitle style={{color:'gray'}}>Cast</Card.Subtitle>
                     <Card.Text> {cast} </Card.Text>
-                    <Card.Subtitle>Release date</Card.Subtitle>
+                    <Card.Subtitle style={{color:'gray'}}>Release date</Card.Subtitle>
                     <Card.Text> {release} </Card.Text>
                     <Button variant="primary">See details</Button>
                 </Card.Body>
